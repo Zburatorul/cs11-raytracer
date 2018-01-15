@@ -1,0 +1,61 @@
+<plane>
+<distance> 0 </distance>
+<color> 0.2, 0.8, 0.1 </color>
+<normal> 0, 0, 1 </normal>
+<reflectivity> 0.2 </reflectivity>
+</plane>
+
+<plane>
+<distance> 15 </distance>
+<color> 0.2, 0.3, 0.1 </color>
+<normal> -1, -1, 0</normal>
+<reflectivity> 0.1 </reflectivity>
+</plane>
+
+
+<plane>
+<distance> -2 </distance>
+<color> 0.1,0.1, 0.05 </color>
+<normal> 0, -1, 0</normal>
+</plane>
+
+<cylinder>
+<center> 8, 6, 2 </center>
+<orientation> -0.8, 1, 0 </orientation>
+<color> 0.15, 0.15, 0.4 </color>
+<height> 6 </height>
+<radius> 2 </radius>
+</cylinder>
+
+
+<sphere>
+<radius> 3 </radius>
+<color> 0.2, 0.8, 0.1 </color>
+<center> 4, 10, 4 </center>
+</sphere>
+
+<sphere>
+<radius> 3.5 </radius>
+<color> 0.8, 0.1, 0.3 </color>
+<center> 2.5,0,5 </center>
+</sphere>
+
+
+<light>
+<position> -7, 7, 3 </position>
+<color> 0.1, 0.2, 0.3 </color>
+</light>
+
+<light>
+<position> -5, -5, 6 </position>
+<color> 0.2, 0.1, 0.1 </color>
+</light>
+
+
+<camera>
+<position> -15, 5, 5 </position>
+<lookat> 25, 4, 0 </lookat>
+<up> 0, 0, 1 </up>
+<fieldofview> 120 </fieldofview>
+</camera>
+

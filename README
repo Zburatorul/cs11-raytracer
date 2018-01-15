@@ -1,0 +1,34 @@
+To compile & run do:
+
+0)
+Edit Makefile with the correct path of the Boost libraries.
+(This step is unnecessary on most systems if Boost is installed *correctly*)
+
+1)
+make depend 
+
+2)
+make all
+
+3)
+Create a file scene.txt with the scenery description.
+Then run:
+make render
+
+Default Output should be:
+scene.ppm  - an (400x400) PNM image file with the rendered scene.
+debug.log - the errors and messages log file.
+
+3*)
+If you have the "pnmtojpeg" utility, you can convert the PNM image to JPEG easily by
+doing:
+make jpeg
+
+A file "img.jpg" with the scene will apear in the same folder.
+
+4) To generate documentation about the source code with Doxygen, do:
+make doc
+
+
+5) Do this to get rid of the old object files.
+make clean

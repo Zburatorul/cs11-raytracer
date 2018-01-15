@@ -1,0 +1,62 @@
+# Line with comments (completely ignored)
+# Stuff that must be specified in this file:
+# The positions and colors and types of all the objects.
+# The positions and colors of all the light sources.
+# The position, field of view and visual field depth of the camera.
+# The size and the resolution of the image to be rendered.
+
+# Should add support for named objects withing the file. Example:
+# Color(r,g,b) > A
+# Vector(x,y,z) > V
+# Vector(x',y',z') > V'
+# Light(V, A)
+
+#Intialization:
+# Color(Red, Green, Blue)
+# Vector3D(x,y,z)
+# Camera (Vector3D Position, Vector3D LookAt, Vector3D UpReference, float  fov_)
+# Light (const Vector3D & Position_, const Color &  LightColor_ )
+# Plane (float FromOrigin, Vector3D  Normal_, const Color &  Color_)
+# Sphere (const Vector3D & Center_, float Radius_, const Color & Color_)
+
+#Syntax example:
+
+#Color
+ <color>R,G,B</color>
+
+#Vector
+ <vector>x,y,z</vector>
+
+#Sphere
+ <sphere>
+	<color>r,g,b</color>
+	<vector>x,y,z</vector>
+	<radius>val</radius>
+ </sphere>
+
+#Plane
+ <plane>
+   <color>r,g,b</color>
+   <distance>val</distance>
+   <normal>x,y,z</normal>
+ </plane>
+
+#Light
+ <light>
+   <color>r,g,b</color>
+   <position>x,y,z</position>
+ </light>
+
+#Camera
+<camera>
+  <position>x,y,z</position>
+  <lookat>x,y,z</lookat>
+  <upreference>x,y,z</upreference>
+  <fieldofview>val</fieldofview>
+</camera>
+
+
+
+
+
+
