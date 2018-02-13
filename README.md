@@ -3,6 +3,8 @@
 Given a scene description, renders an arbitrary resolution image file by tracing rays from camera
 to objects, taking care of reflections and shadows.
 
+See an [example rendered scene here](https://github.com/Zburatorul/cs11-raytracer/blob/master/raytraced_scene.png).
+
 ### Scene Description
 - XML language to describe scene
 - Planes
