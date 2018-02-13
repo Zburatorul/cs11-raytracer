@@ -1,3 +1,12 @@
-# Raytracer.
-# Creates PPM or JPEG files of a scene.
-# Scene markup language supports planes, spheres with color, reflectivity/transparency.
+## A Raytracer in C++
+
+Given a scene description, renders an arbitrary resolution image file by tracing rays from camera
+to objects, taking care of reflections and shadows.
+
+### Scene Description
+- XML language to describe scene
+- Planes
+- Spheres
+- Each object has color, transparency
+- Light sources
+- Camera position and angle
